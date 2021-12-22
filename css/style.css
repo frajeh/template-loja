@@ -1,0 +1,85 @@
+@media(min-width:1001px){
+
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+div.container{
+	width: 90%;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+}
+div.row{
+	display: flex;
+	flex-direction: row;
+	white-space: 20px;
+}
+div.row2{
+	margin-top: 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.itens{
+	width: 24%;
+	height: 80px;
+	border-radius: 4px;
+	padding: 10px;
+
+}
+div#one{
+	width: 50%;
+	height: 350px;
+	margin-right: 5px;
+	padding: 10px;
+	margin-top: 20px;
+	box-sizing: border-box;
+}
+div#two{
+	width: 50%;
+	height: 350px;
+	padding: 10px;
+	margin-top: 20px;
+	
+	background-size: 100%;
+	background-repeat: no-repeat;
+	border-radius: 6px;
+}
+img#compras{
+	width: 100%;
+	height: 340px;
+	margin: -40px 0;
+	border-radius: 6px;
+}
+img#img2{
+	width: 20%;
+	margin: -16px 40%;
+}
+img#img3{
+	width: 40%;
+	margin: 12px 30%;
+}
+img#img4{
+	width: 29%;
+	margin: -4px 37.5%;
+}
+img#img5{
+	width: 21%;
+	margin: -2px 40%;
+}
+h1{font-family: 'Arial';}
+h2{
+	font-family: Arial, Helvetica, sans-serif; text-align: center;
+}
+.centertxt{text-align: center;}
+.giant{font-size: 77px;}
+p{text-align: justify; font-family: 'Arial';}
+ul{width: 100%; margin: 24px 0}
+li{list-style: none; width: 100%; text-align: center;}
+a{text-decoration: none; font-size: 20px; text-align: center; padding: 5px 20px; border-radius: 5px;}
+
+footer{width:100%;height:160px; margin:130px 0 -20px 0; padding: 20px;}
+
+
+
+
+}
